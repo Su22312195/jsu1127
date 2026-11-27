@@ -1,9 +1,0 @@
-﻿
-Name      Mode   Length
-----      ----   ------
-PLAN.md   d-----       
-_done.txt -a---- 9     
-_ls.txt   -a---- 0     
-
-
-
