@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>홍길동 | 대학생 취업 포트폴리오</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- 상단 내비게이션 메뉴 -->
+  <header class="header">
+    <nav class="nav">
+      <a href="#home" class="logo">My Portfolio</a>
+      <button class="nav-toggle" id="navToggle" aria-label="메뉴 열기" aria-expanded="false">☰</button>
+      <ul class="nav-menu" id="navMenu">
+        <li><a href="#home" class="nav-link">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#experience" class="nav-link">Experience</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Home -->
+    <section id="home" class="section home">
+      <h1>안녕하세요, 홍길동입니다.</h1>
+      <p>사용자 경험을 고민하는 프론트엔드 개발자를 꿈꾸는 대학생입니다.</p>
+      <a href="#projects" class="btn">프로젝트 보러가기</a>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="section">
+      <h2>About</h2>
+      <p>OO대학교 컴퓨터공학과 4학년에 재학 중이며, 웹 프론트엔드 개발에 관심이 많습니다. 팀 프로젝트를 통해 협업과 소통의 중요성을 배웠고, 사용자 입장에서 생각하는 개발을 지향합니다.</p>
+      <ul class="info-list">
+        <li><strong>이름</strong> 홍길동</li>
+        <li><strong>학교</strong> OO대학교 컴퓨터공학과</li>
+        <li><strong>희망 직무</strong> 프론트엔드 개발자</li>
+      </ul>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="section alt">
+      <h2>Skills</h2>
+      <ul class="card-grid">
+        <li class="card">
+          <h3>HTML5</h3>
+          <p>시맨틱 마크업으로 구조적인 웹 문서를 작성할 수 있습니다.</p>
+        </li>
+        <li class="card">
+          <h3>CSS3</h3>
+          <p>Flexbox와 Grid를 활용해 반응형 레이아웃을 구성할 수 있습니다.</p>
+        </li>
+        <li class="card">
+          <h3>JavaScript</h3>
+          <p>DOM 조작과 이벤트 처리를 활용한 동적 기능을 구현할 수 있습니다.</p>
+        </li>
+        <li class="card">
+          <h3>Git / GitHub</h3>
+          <p>버전 관리와 협업을 위한 브랜치 전략을 이해하고 있습니다.</p>
+        </li>
+      </ul>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="section">
+      <h2>Projects</h2>
+      <div class="card-grid">
+        <article class="card">
+          <h3>할 일 관리 앱</h3>
+          <p>JavaScript로 만든 할 일 관리 웹 애플리케이션입니다. 추가, 완료, 삭제 기능을 제공합니다.</p>
+        </article>
+        <article class="card">
+          <h3>날씨 정보 사이트</h3>
+          <p>공개 API를 활용해 현재 날씨 정보를 보여주는 웹사이트입니다.</p>
+        </article>
+        <article class="card">
+          <h3>팀 커뮤니티 서비스</h3>
+          <p>4인 팀으로 진행한 게시판 중심의 커뮤니티 프로젝트입니다.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- Experience -->
+    <section id="experience" class="section alt">
+      <h2>Experience</h2>
+      <ul class="timeline">
+        <li><strong>2025.07 ~ 2025.08</strong> OO기업 웹 개발 인턴</li>
+        <li><strong>2025.03 ~ 2025.12</strong> 교내 웹 개발 동아리 활동</li>
+        <li><strong>2024.09</strong> 정보처리기사 자격증 취득</li>
+      </ul>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section">
+      <h2>Contact</h2>
+      <p>궁금한 점이 있으시면 언제든 편하게 연락해 주세요.</p>
+      <ul class="info-list">
+        <li><strong>이메일</strong> <a href="mailto:example@email.com">example@email.com</a></li>
+        <li><strong>GitHub</strong> <a href="https://github.com/" target="_blank" rel="noopener">github.com/username</a></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; 2026 홍길동. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
